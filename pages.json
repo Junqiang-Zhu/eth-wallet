@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/create",
+      "style": {
+        "navigationBarTitleText": "钱包创建"
+      }
+    },
+    {
+      "path": "pages/index/trading",
+      "style": {
+        "navigationBarTitleText": "钱包交易"
+      }
+    },
+	{
+      "path": "pages/index/recovery",
+      "style": {
+        "navigationBarTitleText": "钱包恢复"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#63727d",
+    "selectedColor": "#2e7ff6",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    // 底部高度、文字大小和文字间距
+    "height": "60px",
+    "fontSize": "12px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/create",
+        "iconPath": "static/img/Web.png",
+        "selectedIconPath": "static/img/Webselect.png",
+        "text": "创建"
+      },
+      {
+        "pagePath": "pages/index/trading",
+        "iconPath": "static/img/Web.png",
+        "selectedIconPath": "static/img/Webselect.png",
+        "text": "交易"
+      },
+      {
+        "pagePath": "pages/index/recovery",
+        "iconPath": "static/img/Web.png",
+        "selectedIconPath": "static/img/Webselect.png",
+        "text": "恢复"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
